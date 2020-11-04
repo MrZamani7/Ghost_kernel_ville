@@ -1,6 +1,10 @@
 #Android makefile to build kernel as a part of Android Build
 PERL		= perl
 
+# Ghosted !..
+TARGET_KERNEL_CONFIG := Ghost_ville_defconfig
+KERNEL_DEFCONFIG := Ghost_ville_defconfig
+
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 INSTALLED_KERNEL_TARGET := $(PRODUCT_OUT)/kernel
 KERNEL_OUT := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ

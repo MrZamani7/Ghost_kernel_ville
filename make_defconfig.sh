@@ -1,6 +1,8 @@
 #!/bin/bash
 
-DEFCONFIG_FILE=$1
+# Ghosted !..
+# DEFCONFIG_FILE=$1
+DEFCONFIG_FILE=Ghost_ville_defconfig
 
 if [ -z "$DEFCONFIG_FILE" ]; then
 	echo "Need defconfig file(j1v-perf_defconfig)!"
